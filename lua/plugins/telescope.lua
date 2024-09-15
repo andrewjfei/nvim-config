@@ -9,6 +9,10 @@ return {
         config = function()
             require("telescope").setup({
                 defaults = {
+                    file_ignore_patterns = {
+                        ".git/",
+                        "node_modules/",
+                    },
                     border = true,
                     borderchars = {
                         "─", -- top
@@ -19,6 +23,12 @@ return {
                         "┐", -- top-right
                         "┘", -- bottom-right
                         "└", -- bottom-left
+                    },
+                },
+                pickers = {
+                    find_files = {
+                        -- show hidden files in search results
+                        hidden = true,
                     },
                 },
                 extensions = {
