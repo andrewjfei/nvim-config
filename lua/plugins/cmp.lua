@@ -50,6 +50,8 @@ return {
                             "└", -- bottom-left
                             "│", -- left
                         },
+                        winhighlight = "Normal:Normal,FloatBorder:Normal,CursorLine:IncSearch,Search:None",
+                        side_padding = 1,
                     }),
                     documentation = cmp.config.window.bordered({
                         border = {
@@ -62,6 +64,7 @@ return {
                             "└", -- bottom-left
                             "│", -- left
                         },
+                        winhighlight = "Normal:Normal,FloatBorder:Normal,CursorLine:CursorLine,Search:None",
                     }),
                 },
                 mapping = cmp.mapping.preset.insert({
