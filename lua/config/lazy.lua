@@ -25,6 +25,7 @@ require("lazy").setup({
     -- automatically check for plugin updates
     checker = { enabled = true },
 
+    -- ui components
     ui = {
         icons = {
             cmd = "",

@@ -1,4 +1,5 @@
 return {
+    -- diagnostics, code actions and formatting
     "nvimtools/none-ls.nvim",
     dependencies = {
         "nvimtools/none-ls-extras.nvim",

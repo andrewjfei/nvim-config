@@ -75,10 +75,10 @@ return {
                     ["<C-p>"] = cmp.mapping.select_prev_item(),
 
                     -- scroll down suggestions list
-                    ["<C-f>"] = cmp.mapping.scroll_docs(4),
+                    ["<C-f>"] = cmp.mapping.scroll_docs(4), -- might be mapping conflict
 
                     -- scroll up suggestions list
-                    ["<C-b>"] = cmp.mapping.scroll_docs(-4),
+                    ["<C-b>"] = cmp.mapping.scroll_docs(-4), -- might be mapping conflict
 
                     -- manually trigger suggestions
                     ["<C-Space>"] = cmp.mapping.complete(),
